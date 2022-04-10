@@ -4,7 +4,7 @@ import cv2
 import pandas as pd
 from PIL import Image
 
-from utils import *
+from JSON2YOLO.utils import *
 
 
 # Convert INFOLKS JSON file into YOLO-format labels ----------------------------
