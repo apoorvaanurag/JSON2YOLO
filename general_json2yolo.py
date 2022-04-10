@@ -5,7 +5,15 @@ import pandas as pd
 from PIL import Image
 
 from JSON2YOLO.utils import make_dirs
-from JSON2YOLO.utils import *
+from JSON2YOLO.utils import coco91_to_coco80_class
+from JSON2YOLO.utils import exif_size
+from JSON2YOLO.utils import split_rows_simple
+from JSON2YOLO.utils import split_files
+from JSON2YOLO.utils import write_data_data
+from JSON2YOLO.utils import image_folder2file
+from JSON2YOLO.utils import add_coco_background
+from JSON2YOLO.utils import create_single_class_dataset
+from JSON2YOLO.utils import flatten_recursive_folders
 
 
 # Convert INFOLKS JSON file into YOLO-format labels ----------------------------
