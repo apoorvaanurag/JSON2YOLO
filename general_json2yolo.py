@@ -5,6 +5,7 @@ import pandas as pd
 from PIL import Image
 
 from JSON2YOLO.utils import make_dirs
+from JSON2YOLO.utils import *
 
 
 # Convert INFOLKS JSON file into YOLO-format labels ----------------------------
